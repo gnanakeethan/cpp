@@ -15,7 +15,7 @@ REPEAT: {
     for(int a =10; a >=0; a--)
     {
         int coin=salary/coins[a];
-        salary = salary-(coin*coins[a]);
+        salary %= coins[a];
         cout <<"Rs."<<coins[a] <<": "<<coin<<endl;
     }
 
