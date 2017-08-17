@@ -10,14 +10,14 @@ int main() {
     cin >> unitprice;
     cout << "Input qty:";
     cin >> qty;
-    
+
     totPrice = qty*unitprice;
 
-    if(totPrice>=10000){
+    if(totPrice>=10000) {
         discount=15.0;
-    } else if(totPrice < 10000 && totPrice >=5000){
+    } else if(totPrice < 10000 && totPrice >=5000) {
         discount = 10.0;
-    } else if (totPrice< 5000 && totPrice >=1000){
+    } else if (totPrice< 5000 && totPrice >=1000) {
         discount = 05.0;
     }
 

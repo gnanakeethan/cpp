@@ -12,7 +12,7 @@ int main() {
     cin >> b;
     cout << "Input another number:";
     cin >> c;
-    if(a>b && a>c){
+    if(a>b && a>c) {
         cout << a;
     } else if(b>a && b>c) {
         cout << b;
