@@ -12,11 +12,11 @@ int main() {
     if(a<=100 && a>=75) {
         cout << "A";
     } else if(a< 75 && a>=65) {
-        cout << "A";
+        cout << "B";
     } else if(a<65 && a>=50) {
-        cout << "A";
+        cout << "C";
     } else if(a<50 && a>=35) {
-        cout << "A";
+        cout << "S";
     }  else {
         cout << "F";
     }
