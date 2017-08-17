@@ -22,7 +22,7 @@ int main() {
     }
 
     cout << "Total Price:" << totPrice;
-    cout <<  "Price Discount :" << totPrice * discount;
+    cout <<  "Price Discount :" << totPrice * discount / 100.0;
 
 
 }
