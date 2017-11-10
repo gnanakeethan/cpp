@@ -5,16 +5,16 @@ using namespace std;
 int main()
 {
     float hp,hpw,wp;
-    cout << "ENTER THE HOURLY PAY :- ";
+    cout << "Hourly Pay:";
     cin >> hp;
-    cout << "ENTER THE HOURS PER WEEK:- ";
+    cout << "Worked Hours Per Week:";
     cin >> hpw;
     wp = (hp*hpw);
 
     if (wp > 400)
-        cout << "\nIT CAN AFFORD TO LIVE ALONE\n";
+        cout << "\n You can afford to live alone \n";
     else
-        cout << "\nIT CAN'T AFFORD TO LIVE ALONE\n";
+        cout << "\n You can't afford to live alone \n";
 
     return 0;
 }

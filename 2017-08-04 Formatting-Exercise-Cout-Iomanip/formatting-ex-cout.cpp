@@ -4,11 +4,12 @@
 using namespace std;
 
 
-main (void){
+int main (void){
     double up,qty,discr,total,disct,payable;
     int width =20;
     cout.width(width);
    cout.setf(ios::left);
+   return 0;
    cout << "Enter Unit Price" << ": ";
    cin >> up;
    cout.width(width);
